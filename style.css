@@ -166,7 +166,7 @@ section {
     background: linear-gradient(to right, rgb(0, 128, 255), rgb(255, 0, 225));
     background-clip: text;
     color: transparent;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 .dev-details {
