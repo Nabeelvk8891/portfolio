@@ -14,13 +14,13 @@ navItems.forEach(link => {
 });
 
 
-const words = ["Frontend Developer", "Web Developer", "Web Application", "Artist"];
+const words = ["Software Developer", "Web Developer", "Web Application", "Artist"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
 const typingSpeed = 100;
 const deletingSpeed = 50;
-const delayBetweenWords = 2000; // 2 seconds before switching to next
+const delayBetweenWords = 2000; 
 
 const typewriterElement = document.getElementById("typewriter-text");
 
@@ -44,7 +44,7 @@ function typeEffect() {
   setTimeout(typeEffect, isDeleting ? deletingSpeed : typingSpeed);
 }
 
-// Start the typing effect
+
 typeEffect();
 
 
